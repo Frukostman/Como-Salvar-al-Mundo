@@ -6,13 +6,18 @@
   background-position: top;
   background-attachment: fixed;
   padding: 20vw 0 ;
-  height: 100vh;
+  height: 97vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .banner {
     position: relative;
     top: 40%;
+    display: flex;
     &__titulo {
+        display: flex;
+        justify-content: center;
         font-family: 'Poppins', sans-serif;
         background: $colBlanco;
         mix-blend-mode: screen;
@@ -20,6 +25,7 @@
         line-height: 68%;
         width: 100%;
         color: $colNegro;
+        font-weight: $weightS;
     }
     &__subtitulo p {
         font-size: $fontM;

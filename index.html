@@ -31,14 +31,27 @@
 
     <header>
         <div class="fondo">
-            <div class="container-fluid p-0 text-center banner">
-              <h1 class="display-1 banner__titulo">COMO SALVAR AL<span style="font-weight: 800;"> MUNDO</span></h1>
-              <div class="container pt-5 mt-5 banner__subtitulo">
-                <p class="display-1">Cambiá el <b>MUNDO</b> desde donde mejor te parezca.</p>
-                <a class="scroll " data-loc="#top" href="#top"><i class="fas fa-chevron-down animate__animated animate__bounce "></i></a>
-              </div>             
+            
+            <div href="#" class="banner container-fluid p-0">
+                <h1 class="display-1 banner__titulo">COMO SALVAR AL
+                    <div class="mundo texto-animado" id="texto" style="font-weight: 800;">&nbsp;MUNDO</div>
+                </h1>
             </div>
+            
+            <div class="container pt-5 mt-5 banner__subtitulo text-center">
+                <p class="display-1">Cambiá el <b>MUNDO</b> desde donde mejor te parezca.</p>
+                <a class="scroll " data-loc="#top" href="#top" id="icono"><i class="fas fa-chevron-down animate__animated animate__bounce "></i></a>
+            </div>      
+            
         </div>
+        
+        <!-- <h1 class="display-1 banner__titulo">COMO SALVAR AL<span style="font-weight: 800;"> MUNDO</span></h1> -->
+        
+        <!-- <a href="#" class="logotipo" id="logotipo">
+            <div class="texto-animado" id="logo">Carlos Arturo</div>
+        </a> -->
+
+
           
     </header>   
     
@@ -106,7 +119,7 @@
             </div>    
         </section>
 
-        <div class="imagenFondo mt-5"  style='background-image: url("../images/otras/misiones.jpg") ; max-height: 30vh; margin: 0; '>
+        <div class="imagenFondo mt-5"  style='background-image: url("./images/otras/misiones.jpg") ; max-height: 30vh; margin: 0; '>
             <div class="imagenFondo__subtitulo px-5">
               <h3>Proyectos <span style="font-weight: 500;"> <i> destacados</i></span></h3>
             </div>
@@ -178,7 +191,7 @@
     <!-- footer  -->
 
     <footer class="footer">
-        <div class="container py-3 ">
+        <div class="container py-3">
             <ul class="footer__listado p-0 ">
                 <a class="footer__listado footer__icono " href="" target="blank"><i class="fab fa-instagram"></i></a>
                 <a class="footer__listado footer__icono " href="" target="blank"><i class="fab fa-facebook"></i></a>
@@ -191,6 +204,9 @@
 
 
     <!-- scripts -->
+
+    <!-- javascript -->
+    <script src="./js/javascript.js"></script>
 
     <!-- bootstrapp -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>

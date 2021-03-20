@@ -2,17 +2,18 @@
 
 .footer {
     background-color: $colAzulOscuro;
-    height: auto;   
+    height: auto; 
     &__listado {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         margin: 0;
     }
     &__listado &__icono {
         color: $colBlanco;
-        font-size: $fontS;
-        padding-bottom: 1rem;
+        font-size: $fontM;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
         opacity: 0.5;
         margin: 0 2rem;
         &:hover {
