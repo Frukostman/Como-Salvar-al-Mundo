@@ -71,7 +71,6 @@
 #botonSubmit:hover {
     font-weight: $weightM;
     background-color: $colAzulOscuro;
-    // transform: scale(1.01);
     box-shadow: $sombra2;
 }
 
@@ -85,7 +84,6 @@
 }
 .formulario-input {
     height: 2rem;
-    // margin: 10px;
     border-width: 0px;
     box-shadow: $sombra1;
     padding: 5px 5px 5px 15px;
