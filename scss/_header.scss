@@ -7,17 +7,12 @@
   background-attachment: fixed;
   padding: 20vw 0 ;
   height: 97vh;
-  display: flex;
-  flex-direction: column;
 }
 
 .banner {
     position: relative;
     top: 40%;
-    display: flex;
     &__titulo {
-        display: flex;
-        justify-content: center;
         font-family: 'Poppins', sans-serif;
         background: $colBlanco;
         mix-blend-mode: screen;
@@ -26,7 +21,7 @@
         width: 100%;
         color: $colNegro;
         font-weight: $weightS;
-    }
+     }
     &__subtitulo p {
         font-size: $fontM;
         color: $colBlanco;
@@ -42,4 +37,9 @@
           font-size: $fontL;
           color: $colBlanco;
       }
+}
+@media screen and (max-width: 820px){
+	.banner__titulo {
+		line-height: 100%;
+	}
 }
